@@ -1,0 +1,37 @@
+Question:
+Given a string of lowercase English letters and an integer of the substring length,
+determine the substring of that length that contains the most vowels. Vowels are in
+the set {a, e, i, o, u}. If there is more than one substring with the maximum number
+of vowels, return the one that starts at the lowest index. If there are no vowels in
+the input string, return the string 'Not found!'without quotes.
+Example I
+s = taberqiitefg'
+The substring of length k = 5that contains the maximum number of vowels is 'erqii'
+with 3 vowels.
+The final answer is 'erqii'.
+Example 2
+s = äeiouia'
+All of the characters are vowels, so any substring of length 3 will have 3 vowels. The
+lowest index substring is at index O, 'aei'.
+Function Description
+Complete the function findSubstringin the editor below.
+findSubstringhas the following parameters:
+
+Question:
+Given an array of integers, what is the length of the longest subarray containing no
+more than two distinct values such that the distinct values differ by no more than
+l?
+Example
+arr= [0, 1,2,
+The largest such subarray has length 4: [I 1 ,2].
+The largest such subarray has length 4: [3, 3, 2, 2]. The values I and 3 differ by
+more than I so [I, I, I, 3, 3] is not valid.
+Function Description
+Complete the function longestSubarrayin the editor below.
+longestSubarrayhas the following parameter(s):
+intarr[n]: an array of integers
+Returns:
+int: the length of the longest subarray
+Constraints
+• The longest subarray will have fewer than 35 elements.
+. 1 sn005
